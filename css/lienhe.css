@@ -1,0 +1,70 @@
+.lienhe {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+
+.icon2 {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.icon2 li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.lh-icon{
+    color: black;
+}
+
+
+.mota {
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 80px;
+    padding: 10px;
+    background: green;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    opacity: 0.9;
+}

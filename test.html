@@ -16,9 +16,9 @@
             <i class="fas fa-bars icon" id="nutmenu"></i>
         </div>
         <div class="phai">
-            <a href="trangchu.html">Trang chủ</a>
-            <a href="#">Giới thiệu</a>
-            <a href="#">Liên hệ</a>
+            <a href="index.html">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="lienhe.html">Liên hệ</a>
             <i class="fas fa-cog icon"></i>
             <i class="fas fa-user icon" id="nutnguoidung"></i>
         </div>
@@ -31,30 +31,20 @@
 
     <div class="tk" id="tabtk">
         <i class="fas fa-search tk-icon"></i>
-        <input type="text" class="tk-input" placeholder="Tìm kiếm">
+        <input class="tk-input" placeholder="Tìm kiếm">
     </div>
 
     <nav class="menu" id="tabmenu">
         <ul>
-            <li><a href="trangchu.html" class="nutchinh">Trang chủ</a></li>
+            <li><a href="index.html" class="nutchinh">Trang chủ</a></li>
             <li>
                 <div class="mucluc">
                     <button class="nutchinh">Danh sách món ăn <i class="fas fa-chevron-down"></i></button>
                 </div>
                 <ul class="phu">
                     <li><a href="matruyenthong.html">Món ăn truyền thống</a></li>
-                    <li><a href="#">Món ăn dễ chế biến</a></li>
-                    <li><a href="#">Món ăn khác</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <div class="mucluc">
-                    <button class="nutchinh">Danh sách đồ uống <i class="fas fa-chevron-down"></i></button>
-                </div>
-                <ul class="phu">
-                    <li><a href="#">Đồ uống nóng</a></li>
-                    <li><a href="#">Đồ uống lạnh</a></li>
+                    <li><a href="madechebien.html">Món ăn dễ chế biến</a></li>
+                    <li><a href="makhac.html">Món ăn khác</a></li>
                 </ul>
             </li>
 
@@ -63,9 +53,8 @@
                     <button class="nutchinh">Mẹo nấu ăn <i class="fas fa-chevron-down"></i></button>
                 </div>
                 <ul class="phu">
-                    <li><a href="phuongphapchebien.html">Phương pháp sơ chế</a></li>
-                    <li><a href="#">Mẹo bảo quản thực phẩm</a></li>
-                    <li><a href="#">Kỹ thuật nấu cơ bản</a></li>
+                    <li><a href="phuongphapchebien.html">Phương pháp biến chế</a></li>
+                    <li><a href="meobaoquanthucpham.html">Mẹo bảo quản thực phẩm</a></li>
                 </ul>
             </li>
         </ul>
@@ -74,16 +63,8 @@
     <div class="dangnhapky" id="dangnhapky">
         <h2>Chưa đăng nhập</h2>
         <p>Vui lòng đăng nhập hoặc tạo tài khoản để sử dụng đầy đủ chức năng.</p>
-        <div class="nutdk"><i class="fas fa-user-plus"></i> Tạo tài khoản</div>
-        <div class="nutdn"><i class="fas fa-sign-in-alt"></i> Đăng nhập</div>
-    </div>
-
-
-    <div class="dautrang">
-        <img src="images/trangchu.png" alt="Ảnh trang chủ">
-        <h2>Chào mừng đến với Website Ẩm Thực</h2>
-        <p>Khám phá những món ăn hấp dẫn, được chọn lọc và giới thiệu bởi đội ngũ đam mê ẩm thực. Cùng chúng tôi trải
-            nghiệm hương vị từ mọi miền đất nước.</p>
+        <a href="dangky.html"><div class="nutdk"><i class="fas fa-user-plus"></i> Tạo tài khoản</div></a>
+        <a href="danhnhap.html"><div class="nutdn"><i class="fas fa-sign-in-alt"></i> Đăng nhập</div></a>
     </div>
 
     <main class="trangmon">
@@ -130,7 +111,7 @@
             </div>
         </div>
     </main>
-
+    
     <div class="khung">
         <h2><i class="fas fa-comment-dots"></i> Bình Luận</h2>
         <textarea class="nhapbinhluan" placeholder="Viết bình luận..."></textarea>
@@ -146,7 +127,7 @@
             </div>
         </div>
     </div>
-
+    
     <script src="script.js"></script>
 
     <footer class="chantrang">
@@ -157,6 +138,9 @@
         <div class="cot">
             <h3>Giúp đỡ</h3>
             <a href="#">Câu hỏi thường gặp</a>
+            <p><i class="fas fa-phone"></i><b></b> 0312345690</p>
+            <p><a href="admin@chiasemonan.com.vn""></a>admin@chiasemonan.com.vn</p>
+            <p><i class="fa-solid fa-globe"></i> www.chiasemonan.com.vn</p>
         </div>
         <div class="cot">
             <h3>Theo dõi chúng tôi</h3>
@@ -173,60 +157,3 @@
 </body>
 
 </html>
-1. Phân loại thực phẩm trước khi bảo quản
-Thực phẩm sống (thịt, cá, hải sản): Những loại thực phẩm này có thể chứa vi khuẩn gây hại như Salmonella, E. coli. Vì vậy, cần phải bọc kỹ và để trong ngăn dưới cùng của tủ lạnh để tránh lây nhiễm cho các thực phẩm khác. Bạn có thể sử dụng túi zip hoặc hộp kín.
-
-Thực phẩm chín (thực phẩm đã chế biến, món ăn thừa): Những món ăn này cần được bảo quản trong hộp kín hoặc bọc bằng màng bọc thực phẩm để tránh việc vi khuẩn phát triển. Đặc biệt đối với các món ăn có chứa sữa, trứng, hoặc thịt, bạn cần sử dụng trong vòng 3-4 ngày để đảm bảo độ tươi ngon.
-
-Trái cây và rau củ: Tùy thuộc vào loại trái cây và rau củ, chúng sẽ cần các phương pháp bảo quản khác nhau:
-
-Trái cây chín như chuối, táo cần được bảo quản trong ngăn mát, nhưng trái cây chưa chín như dưa hấu, dứa, hay cà chua cần bảo quản ở nhiệt độ phòng cho đến khi chín.
-
-Rau củ như cà rốt, khoai tây nên được bảo quản trong ngăn chuyên dụng của tủ lạnh. Tuy nhiên, khoai tây và hành nên được lưu trữ ở nơi khô ráo, thoáng mát, tránh để trong tủ lạnh vì có thể bị biến chất.
-
-2. Sử dụng hộp đựng kín hoặc túi zip
-Túi zip là lựa chọn hoàn hảo để bảo quản thực phẩm cắt nhỏ, như rau củ đã thái, thịt hoặc cá đã chia phần. Khi sử dụng túi zip, bạn có thể hút hết không khí để giúp thực phẩm lâu hỏng hơn.
-
-Hộp kín có thể giúp bảo quản thực phẩm tốt hơn và tránh mùi lan tỏa. Bạn có thể sử dụng hộp thủy tinh hoặc hộp nhựa an toàn có nắp đậy kín. Chúng rất phù hợp cho việc bảo quản thực phẩm lỏng hoặc món ăn đã chế biến.
-
-3. Không để thực phẩm quá sát thành tủ lạnh
-Việc để thực phẩm quá sát tường tủ lạnh sẽ làm giảm khả năng lưu thông khí lạnh, dẫn đến thực phẩm không được làm lạnh đều, dễ gây ô nhiễm chéo và hư hỏng. Nếu không gian trong tủ quá chật, bạn có thể dùng kệ hoặc giá treo để đảm bảo thực phẩm có không gian đủ rộng.
-
-Khoảng cách tối thiểu từ thành tủ lạnh là khoảng 2-3 cm để không khí có thể lưu thông và làm lạnh tốt hơn.
-
-4. Điều chỉnh nhiệt độ phù hợp
-Ngăn mát: Nhiệt độ lý tưởng là 3°C đến 4°C. Đây là mức nhiệt độ giúp kéo dài thời gian sử dụng của thực phẩm mà không làm đông chúng. Bạn có thể kiểm tra nhiệt độ bằng máy đo nhiệt độ để đảm bảo tủ lạnh đang hoạt động đúng.
-
-Ngăn đá: Để bảo quản thực phẩm lâu dài như thịt, cá, đồ ăn chế biến sẵn, nhiệt độ lý tưởng là -18°C hoặc thấp hơn. Khi bảo quản thực phẩm trong ngăn đá, bạn nên chia nhỏ thực phẩm thành phần nhỏ để dễ dàng lấy ra sử dụng và tránh làm đông lại thực phẩm nhiều lần.
-
-5. Không để thực phẩm quá lâu
-Thực phẩm tươi sống như thịt, cá chỉ nên được bảo quản trong tủ lạnh từ 1-2 ngày, sau đó nên được chuyển sang ngăn đá nếu không sử dụng ngay.
-
-Món ăn đã chế biến sẵn: Có thể giữ được trong tủ lạnh từ 3-4 ngày. Sau khoảng thời gian này, thực phẩm có thể bắt đầu mất đi hương vị và chất dinh dưỡng.
-
-Kiểm tra thường xuyên các thực phẩm có dấu hiệu hư hỏng như mùi, màu sắc thay đổi. Nếu thực phẩm có mùi lạ hoặc bị thay đổi kết cấu (mềm nhũn, dính tay) thì không nên ăn nữa.
-
-6. Không cho thực phẩm còn nóng vào tủ lạnh
-Khi cho thực phẩm nóng vào tủ lạnh, bạn tăng nhiệt độ tủ lạnh, điều này sẽ làm tăng chi phí điện và hạn chế hiệu quả làm lạnh.
-
-Để giảm thiểu vi khuẩn phát triển, bạn nên để thực phẩm nguội ở nhiệt độ phòng khoảng 30 phút trước khi cho vào tủ lạnh.
-
-7. Bảo quản rau củ đúng cách
-Rau củ dễ hư: Những loại rau như xà lách, cải ngọt, hoặc rau mùi cần được bọc trong khăn giấy khô để hút ẩm và giữ tươi lâu hơn. Bạn cũng có thể cho vào túi zip nhưng phải lưu ý không để quá kín để tránh tạo môi trường ẩm ướt cho vi khuẩn phát triển.
-
-Rau củ có lớp vỏ: Các loại củ như cà rốt, khoai tây hay hành tây cần được để khô ráo và không rửa trước khi bảo quản để tránh tình trạng bị úng.
-
-8. Làm sạch tủ lạnh định kỳ
-Làm sạch ngăn tủ: Bạn có thể dùng giấm hoặc baking soda pha với nước ấm để lau sạch ngăn tủ. Baking soda sẽ khử mùi hôi, trong khi giấm có tác dụng diệt khuẩn.
-
-Vệ sinh khay chứa nước: Đây là nơi dễ tích tụ nước đọng, dễ sinh mùi và vi khuẩn, vì vậy bạn cần phải làm sạch và lau khô khay chứa nước mỗi tuần.
-
-9. Không để quá đầy tủ lạnh
-Việc để quá nhiều thực phẩm trong tủ có thể làm cho tủ không hoạt động hiệu quả, giảm khả năng làm lạnh và tăng nguy cơ thực phẩm bị hư hỏng.
-
-Tạo các khoảng trống nhỏ giữa các món ăn sẽ giúp lưu thông khí lạnh và giữ cho thực phẩm luôn tươi ngon.
-
-10. Dùng baking soda hoặc than hoạt tính khử mùi
-Baking soda có thể giúp bạn khử mùi trong tủ lạnh, đặc biệt là mùi của thực phẩm như hành tây, tỏi, phô mai, hoặc cá. Bạn chỉ cần đặt một hộp baking soda nhỏ trong tủ lạnh, và thay mới mỗi 3 tháng.
-
-Than hoạt tính cũng là một lựa chọn tuyệt vời để khử mùi và hấp thụ độ ẩm. Nó có thể giúp tủ lạnh không bị ám mùi hôi lâu dài.
